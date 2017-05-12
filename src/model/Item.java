@@ -1,6 +1,7 @@
 package model;
 
 
+import java.math.BigDecimal;
 import java.util.List;
 
 public class Item {
@@ -9,9 +10,12 @@ public class Item {
     protected boolean isWorking;
     protected String manufacturer;
     protected String model;
-    protected String description;
-    protected int resourceInHours;
-    protected int workedTime;
+//    protected String description;
+    protected Resource resource;
     protected List<ItemLog> itemLogs;
+    protected BigDecimal startPrice;
+    protected BigDecimal currentPrice;
+    protected BigDecimal usagePercentage;
+
 
 }

@@ -1,13 +1,13 @@
 package model;
 
 
-import java.time.Duration;
+import java.math.BigDecimal;
 
 public class UserCommonItemEvent {
 
     private int id;
     private User user;
     private Item item;
-    private Duration duration;
+    private BigDecimal usedPercents;
 
 }
