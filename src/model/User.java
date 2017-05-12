@@ -3,14 +3,30 @@ package model;
 
 import java.util.List;
 
+
+/**
+ * represents user entity
+ */
 public class User {
 
-    
+    /**
+     * PK
+     */
     private int id;
+
+    /**
+     * do we need it?
+     */
     private Contacts contacts;
+
+    /**
+     * department where user works
+     */
     private Department department;
-//    private Position position;
+
+    /**
+     * user can have {@link PrivateItem} which is used only by this user
+     */
     private List<PrivateItem> userItems;
-    private List<UserCommonItemEvent> commonItemEvents;
-    private UserCredentials credentials;
+
 }

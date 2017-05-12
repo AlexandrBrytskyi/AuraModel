@@ -3,6 +3,7 @@ package model;
 
 import java.util.List;
 
+/** nada?*/
 public class Contacts {
 
     private int id;
