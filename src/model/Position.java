@@ -6,4 +6,5 @@ public class Position {
     private String name;
     private String desc;
     private double salaryUSD;
+
 }

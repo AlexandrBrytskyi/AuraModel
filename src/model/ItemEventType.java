@@ -1,0 +1,5 @@
+package model;
+
+enum  ItemEventType {
+    ITEM_CREATED, ITEM_BINDED_TO_USER, ITEM_BROKEN, ITEM_REPAIRED, ITEM_RESOURCE_EXPIRED
+}

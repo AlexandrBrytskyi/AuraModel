@@ -1,5 +1,8 @@
 package model;
 
 
-public class PrivateItem {
+public class PrivateItem extends Item {
+
+private User owner;
+
 }
