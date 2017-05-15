@@ -1,5 +1,8 @@
-package model;
+package model.events;
 
+
+import model.item.Item;
+import model.user.User;
 
 import java.math.BigDecimal;
 

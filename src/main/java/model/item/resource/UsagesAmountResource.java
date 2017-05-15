@@ -1,4 +1,4 @@
-package model;
+package model.item.resource;
 
 
 import java.math.BigDecimal;

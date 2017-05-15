@@ -1,5 +1,8 @@
-package model;
+package model.item;
 
+
+import model.events.ItemLog;
+import model.item.resource.Resource;
 
 import java.math.BigDecimal;
 import java.util.List;
@@ -46,6 +49,12 @@ public abstract class Item {
      * describes total item wear
      */
     protected BigDecimal usagePercentage;
+
+    protected List<Item> components;
+
+    protected Item parentItem;
+
+
 
 
 }

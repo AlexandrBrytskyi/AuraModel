@@ -1,5 +1,8 @@
-package model;
+package model.events;
 
+
+import model.item.Item;
+import model.item.ItemEventType;
 
 import java.time.LocalDateTime;
 

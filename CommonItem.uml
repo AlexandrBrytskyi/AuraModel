@@ -3,40 +3,34 @@
   <ID>JAVA</ID>
   <OriginalElement />
   <nodes>
-    <node x="509.2916666666667" y="1486.0">model.CommonItem</node>
-    <node x="554.5" y="256.0">model.ItemLog</node>
-    <node x="602.75" y="724.0">model.ComponentItem</node>
-    <node x="727.3839506172839" y="1150.0">model.User</node>
-    <node x="469.99999999999994" y="446.0">model.Item</node>
-    <node x="918.7083333333333" y="994.0">model.Department</node>
-    <node x="217.99999999999994" y="523.0">model.TimeResource</node>
-    <node x="512.5" y="0.0">model.ItemEventType</node>
-    <node x="0.0" y="523.0">model.UsagesAmountResource</node>
-    <node x="520.5817901234566" y="859.0">model.ComplexItem</node>
-    <node x="652.8317901234566" y="1016.0">model.PrivateItem</node>
-    <node x="826.6219135802468" y="826.0">model.Contacts</node>
-    <node x="841.2067901234566" y="1318.0">model.UserCredentials</node>
-    <node x="268.75895061728386" y="300.0">model.Resource</node>
-    <node x="905.3839506172839" y="1150.0">model.UserRole</node>
-    <node x="554.9583333333333" y="1318.0">model.UserCommonItemEvent</node>
+    <node x="202.53863636363639" y="1260.0">model.CommonItem</node>
+    <node x="42.0" y="256.0">model.ItemLog</node>
+    <node x="446.31818181818187" y="924.0">model.User</node>
+    <node x="26.5" y="446.0">model.Item</node>
+    <node x="675.7053030303031" y="768.0">model.Department</node>
+    <node x="344.5" y="545.0">model.TimeResource</node>
+    <node x="0.0" y="0.0">model.ItemEventType</node>
+    <node x="774.5" y="545.0">model.UsagesAmountResource</node>
+    <node x="596.5" y="523.0">model.Contacts</node>
+    <node x="253.27196969696973" y="790.0">model.PrivateItem</node>
+    <node x="448.12007575757576" y="300.0">model.Resource</node>
+    <node x="576.5681818181819" y="1092.0">model.UserCredentials</node>
+    <node x="624.3181818181819" y="924.0">model.UserRole</node>
+    <node x="248.20530303030307" y="1092.0">model.UserCommonItemEvent</node>
   </nodes>
   <notes />
   <edges>
     <edge source="model.Item" target="model.ItemLog">
-      <point x="0.0" y="-114.0" />
+      <point x="-99.33333333333331" y="-136.0" />
+      <point x="76.16666666666669" y="426.0" />
+      <point x="86.5" y="426.0" />
       <point x="-44.5" y="70.0" />
-    </edge>
-    <edge source="model.ComplexItem" target="model.ComponentItem">
-      <point x="0.0" y="-26.0" />
-      <point x="652.0817901234566" y="801.0" />
-      <point x="647.25" y="801.0" />
-      <point x="-44.5" y="26.0" />
     </edge>
     <edge source="model.UsagesAmountResource" target="model.Resource">
       <point x="0.0" y="-37.0" />
-      <point x="99.0" y="421.0" />
-      <point x="285.0922839506172" y="421.0" />
-      <point x="-32.666666666666686" y="26.0" />
+      <point x="873.5" y="426.0" />
+      <point x="529.7867424242424" y="426.0" />
+      <point x="32.666666666666686" y="26.0" />
     </edge>
     <edge source="model.ItemLog" target="model.ItemEventType">
       <point x="0.0" y="-70.0" />
@@ -44,135 +38,115 @@
     </edge>
     <edge source="model.UserCredentials" target="model.User">
       <point x="-44.75" y="-59.0" />
-      <point x="885.9567901234566" y="1293.0" />
-      <point x="845.8839506172839" y="1293.0" />
+      <point x="621.3181818181819" y="1067.0" />
+      <point x="564.8181818181819" y="1067.0" />
       <point x="39.5" y="59.0" />
-    </edge>
-    <edge source="model.ComplexItem" target="model.Item">
-      <point x="-87.66666666666674" y="-26.0" />
-      <point x="564.4151234567898" y="801.0" />
-      <point x="576.052160493827" y="801.0" />
-      <point x="576.052160493827" y="699.0" />
-      <point x="599.0" y="699.0" />
-      <point x="0.0" y="114.0" />
     </edge>
     <edge source="model.User" target="model.Department">
       <point x="31.600000000000023" y="-59.0" />
-      <point x="837.9839506172839" y="1120.0" />
-      <point x="941.7083333333333" y="1120.0" />
+      <point x="556.9181818181819" y="894.0" />
+      <point x="698.7053030303031" y="894.0" />
       <point x="-46.0" y="48.0" />
-    </edge>
-    <edge source="model.Department" target="model.User">
-      <point x="0.0" y="48.0" />
-      <point x="987.7083333333333" y="1130.0" />
-      <point x="869.5839506172839" y="1130.0" />
-      <point x="63.200000000000045" y="-59.0" />
     </edge>
     <edge source="model.CommonItem" target="model.UserCommonItemEvent">
       <point x="0.0" y="-37.0" />
-      <point x="636.2916666666667" y="1461.0" />
-      <point x="643.4583333333333" y="1461.0" />
+      <point x="329.5386363636364" y="1235.0" />
+      <point x="336.70530303030307" y="1235.0" />
       <point x="0.0" y="59.0" />
+    </edge>
+    <edge source="model.Department" target="model.User">
+      <point x="0.0" y="48.0" />
+      <point x="744.7053030303031" y="904.0" />
+      <point x="588.5181818181819" y="904.0" />
+      <point x="63.200000000000045" y="-59.0" />
     </edge>
     <edge source="model.ItemLog" target="model.Item">
       <point x="44.5" y="70.0" />
-      <point x="688.0" y="421.0" />
-      <point x="685.0" y="421.0" />
-      <point x="86.0" y="-114.0" />
-    </edge>
-    <edge source="model.ComponentItem" target="model.ComplexItem">
-      <point x="44.49999999999999" y="26.0" />
-      <point x="736.25" y="801.0" />
-      <point x="739.7484567901233" y="801.0" />
-      <point x="87.66666666666663" y="-26.0" />
-    </edge>
-    <edge source="model.ComponentItem" target="model.Item">
-      <point x="0.0" y="-26.0" />
-      <point x="691.75" y="699.0" />
-      <point x="685.0" y="699.0" />
-      <point x="86.0" y="114.0" />
+      <point x="0.0" y="-136.0" />
     </edge>
     <edge source="model.UserCommonItemEvent" target="model.Item">
       <point x="-44.25" y="-59.0" />
-      <point x="599.2083333333333" y="1293.0" />
-      <point x="510.0817901234567" y="1293.0" />
-      <point x="510.0817901234567" y="699.0" />
-      <point x="513.0" y="699.0" />
-      <point x="-86.0" y="114.0" />
+      <point x="292.45530303030307" y="1067.0" />
+      <point x="165.125" y="1067.0" />
+      <point x="165.125" y="743.0" />
+      <point x="175.5" y="743.0" />
+      <point x="0.0" y="136.0" />
     </edge>
     <edge source="model.CommonItem" target="model.Department">
-      <point x="84.66666666666663" y="-37.0" />
-      <point x="720.9583333333333" y="1461.0" />
-      <point x="1088.883950617284" y="1461.0" />
-      <point x="1088.883950617284" y="1130.0" />
-      <point x="1033.7083333333333" y="1130.0" />
+      <point x="84.66666666666669" y="-37.0" />
+      <point x="414.20530303030307" y="1235.0" />
+      <point x="807.8181818181819" y="1235.0" />
+      <point x="807.8181818181819" y="904.0" />
+      <point x="790.7053030303031" y="904.0" />
       <point x="46.0" y="48.0" />
     </edge>
     <edge source="model.UserCredentials" target="model.UserRole">
       <point x="44.75" y="-59.0" />
-      <point x="975.4567901234566" y="1293.0" />
-      <point x="991.8839506172839" y="1293.0" />
       <point x="0.0" y="59.0" />
     </edge>
     <edge source="model.Item" target="model.Resource">
-      <point x="-86.0" y="-114.0" />
-      <point x="513.0" y="421.0" />
-      <point x="350.4256172839505" y="421.0" />
-      <point x="32.66666666666663" y="26.0" />
+      <point x="99.33333333333331" y="-136.0" />
+      <point x="274.8333333333333" y="416.0" />
+      <point x="464.4534090909091" y="416.0" />
+      <point x="-32.666666666666686" y="26.0" />
     </edge>
     <edge source="model.TimeResource" target="model.Resource">
       <point x="0.0" y="-37.0" />
-      <point x="333.99999999999994" y="421.0" />
-      <point x="317.75895061728386" y="421.0" />
+      <point x="460.5" y="426.0" />
+      <point x="497.12007575757576" y="426.0" />
       <point x="0.0" y="26.0" />
     </edge>
     <edge source="model.Department" target="model.Contacts">
       <point x="0.0" y="-48.0" />
-      <point x="987.7083333333333" y="969.0" />
-      <point x="945.1219135802468" y="969.0" />
+      <point x="744.7053030303031" y="743.0" />
+      <point x="715.0" y="743.0" />
       <point x="39.5" y="59.0" />
     </edge>
     <edge source="model.User" target="model.Contacts">
       <point x="0.0" y="-59.0" />
-      <point x="806.3839506172839" y="1110.0" />
-      <point x="834.0074074074072" y="1110.0" />
-      <point x="834.0074074074072" y="969.0" />
-      <point x="866.1219135802468" y="969.0" />
+      <point x="525.3181818181819" y="884.0" />
+      <point x="603.0829545454546" y="884.0" />
+      <point x="603.0829545454546" y="743.0" />
+      <point x="636.0" y="743.0" />
       <point x="-39.5" y="59.0" />
     </edge>
+    <edge source="model.CommonItem" target="model.Item">
+      <point x="-84.66666666666669" y="-37.0" />
+      <point x="244.8719696969697" y="1235.0" />
+      <point x="136.58484848484858" y="1235.0" />
+      <point x="136.58484848484858" y="743.0" />
+      <point x="76.16666666666669" y="743.0" />
+      <point x="-99.33333333333331" y="136.0" />
+    </edge>
     <edge source="model.User" target="model.PrivateItem">
-      <point x="-63.19999999999993" y="-59.0" />
-      <point x="743.1839506172839" y="1130.0" />
-      <point x="685.3317901234566" y="1130.0" />
+      <point x="-63.19999999999999" y="-59.0" />
+      <point x="462.1181818181819" y="904.0" />
+      <point x="285.77196969696973" y="904.0" />
       <point x="-32.5" y="26.0" />
     </edge>
     <edge source="model.UserCommonItemEvent" target="model.User">
       <point x="44.25" y="-59.0" />
-      <point x="687.7083333333333" y="1293.0" />
-      <point x="766.8839506172839" y="1293.0" />
+      <point x="380.95530303030307" y="1067.0" />
+      <point x="485.81818181818187" y="1067.0" />
       <point x="-39.5" y="59.0" />
     </edge>
-    <edge source="model.PrivateItem" target="model.ComplexItem">
+    <edge source="model.PrivateItem" target="model.Item">
       <point x="0.0" y="-26.0" />
-      <point x="65.75" y="26.0" />
-    </edge>
-    <edge source="model.CommonItem" target="model.ComplexItem">
-      <point x="-84.66666666666674" y="-37.0" />
-      <point x="551.625" y="1461.0" />
-      <point x="478.7188271604938" y="1461.0" />
-      <point x="478.7188271604938" y="969.0" />
-      <point x="586.3317901234566" y="969.0" />
-      <point x="-65.75" y="26.0" />
+      <point x="318.27196969696973" y="743.0" />
+      <point x="274.8333333333333" y="743.0" />
+      <point x="99.33333333333331" y="136.0" />
     </edge>
     <edge source="model.PrivateItem" target="model.User">
       <point x="32.5" y="26.0" />
-      <point x="750.3317901234566" y="1130.0" />
-      <point x="774.7839506172838" y="1130.0" />
-      <point x="-31.600000000000023" y="-59.0" />
+      <point x="350.77196969696973" y="894.0" />
+      <point x="493.7181818181819" y="894.0" />
+      <point x="-31.599999999999966" y="-59.0" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="0.6689873417721519" x="605.3084200567644" y="1047.822138126774" />
-  <SelectedNodes />
+  <settings layout="Hierarchic Group" zoom="0.7000000000000001" x="765.375" y="837.875" />
+  <SelectedNodes>
+    <node>model.CommonItem</node>
+  </SelectedNodes>
   <Categories>
     <Category>Fields</Category>
   </Categories>

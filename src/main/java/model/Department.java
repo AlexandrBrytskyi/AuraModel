@@ -1,6 +1,8 @@
 package model;
 
 
+import model.user.User;
+
 import java.util.List;
 
 /**

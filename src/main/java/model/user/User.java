@@ -1,5 +1,9 @@
-package model;
+package model.user;
 
+
+import model.Contacts;
+import model.Department;
+import model.item.PrivateItem;
 
 import java.util.List;
 
